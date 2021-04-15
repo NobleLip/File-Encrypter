@@ -18,3 +18,18 @@ The Fernet key used to Encrypt the file is in the **FigletUsed.txt** File!
 
 **If you encrypted a important file, make sure you DONT forget or lose the fernet key, you will need the same Fernet key to decrypt the file**
 
+*The Script let's you create a Fernet key before starting to use it!*
+
+## Example:
+
+### First We generate a Fernet Key.
+
+![Fernet](Img/fernet.PNG)
+
+### We Select a File To Encrypt.
+
+![Before](Img/Before.PNG)
+
+### We Select Option 1 and Encrypt the File!
+
+![After](Img/After.PNG)
