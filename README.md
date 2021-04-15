@@ -9,8 +9,8 @@
 
 # File Encrypter/Decrypter :octocat:
 
-Basically this a script to Decrypt/Encrypt the files that you whant to keep safe, i left a 
-example on the Files Folder that will be a example for you to solve.
+Basically this a script to Decrypt/Encrypt the files that you whant to keep safe, **i left a 
+example on the Files Folder that will be a example for you to solve.**
 
 The Fernet key used to Encrypt the file is in the **FigletUsed.txt** File!
 
