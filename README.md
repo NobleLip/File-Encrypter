@@ -10,7 +10,8 @@
 # File Encrypter/Decrypter :octocat:
 
 Basically this a script to Decrypt/Encrypt the files that you whant to keep safe, **i left a 
-example on the Files Folder that will be a example for you to solve.**
+example on the Files Folder that will be a example for you to solve.
+If you solve it you can get a BTC Wallet it *0.5429BTC* **
 
 The Fernet key used to Encrypt the file is in the **FigletUsed.txt** File!
 
