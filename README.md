@@ -1,35 +1,80 @@
 ```
-  _____ _ _            _____                             _
- |  ___(_) | ___      | ____|_ __   ___ _ __ _   _ _ __ | |_ ___ _ __
- | |_  | | |/ _ \_____|  _| | '_ \ / __| '__| | | | '_ \| __/ _ \ '__|
- |  _| | | |  __/_____| |___| | | | (__| |  | |_| | |_) | ||  __/ |
- |_|   |_|_|\___|     |_____|_| |_|\___|_|   \__, | .__/ \__\___|_|
-                                             |___/|_|
+  ███████▓██▓   ▓█████    ▓█████ ███▄    █ ▄████▄  ██▀███▓██   ██▓██▓███ ▄▄▄█████▓█████ ██▀███  
+▓██   ▓██▓██▒   ▓█   ▀    ▓█   ▀ ██ ▀█   █▒██▀ ▀█ ▓██ ▒ ██▒██  ██▓██░  ██▓  ██▒ ▓▓█   ▀▓██ ▒ ██▒
+▒████ ▒██▒██░   ▒███      ▒███  ▓██  ▀█ ██▒▓█    ▄▓██ ░▄█ ▒▒██ ██▓██░ ██▓▒ ▓██░ ▒▒███  ▓██ ░▄█ ▒
+░▓█▒  ░██▒██░   ▒▓█  ▄    ▒▓█  ▄▓██▒  ▐▌██▒▓▓▄ ▄██▒██▀▀█▄  ░ ▐██▓▒██▄█▓▒ ░ ▓██▓ ░▒▓█  ▄▒██▀▀█▄  
+░▒█░  ░██░██████░▒████▒   ░▒████▒██░   ▓██▒ ▓███▀ ░██▓ ▒██▒░ ██▒▓▒██▒ ░  ░ ▒██▒ ░░▒████░██▓ ▒██▒
+ ▒ ░  ░▓ ░ ▒░▓  ░░ ▒░ ░   ░░ ▒░ ░ ▒░   ▒ ▒░ ░▒ ▒  ░ ▒▓ ░▒▓░ ██▒▒▒▒▓▒░ ░  ░ ▒ ░░  ░░ ▒░ ░ ▒▓ ░▒▓░
+ ░     ▒ ░ ░ ▒  ░░ ░  ░    ░ ░  ░ ░░   ░ ▒░ ░  ▒    ░▒ ░ ▒▓██ ░▒░░▒ ░        ░    ░ ░  ░ ░▒ ░ ▒░
+ ░ ░   ▒ ░ ░ ░     ░         ░     ░   ░ ░░         ░░   ░▒ ▒ ░░ ░░        ░        ░    ░░   ░ 
+       ░     ░  ░  ░  ░      ░  ░        ░░ ░        ░    ░ ░                       ░  ░  ░     
+                                          ░               ░ ░                                   
 ```
 
-# File Encrypter/Decrypter :octocat:
+# 🔐 File Encrypter/Decrypter
 
-Basically this a script to Decrypt/Encrypt the files that you whant to keep safe, **i left a example on the Files Folder that will be a example for you to solve.**
-**If you solve it you can get a BTC Wallet** **it *0.5429BTC* .**
+A simple Python script to **encrypt and decrypt files** using the Fernet symmetric encryption from the `cryptography` library. Perfect for keeping your files safe and learning about encryption!
 
-The Fernet key used to Encrypt the file is in the **FigletUsed.txt** File!
 
-## Warning
+## 🚀 Features
 
-**If you encrypted a important file, make sure you DONT forget or lose the fernet key, you will need the same Fernet key to decrypt the file**
+- **Encrypt any file** with a Fernet key
+- **Decrypt files** (with the same key)
+- **Multiple encryption rounds** for extra security (or fun!)
+- **Easy-to-use interactive CLI**
+- **Example files included** for practice
 
-*The Script let's you create a Fernet key before starting to use it!*
 
-## Example:
+## ⚠️ Warning
 
-### First We generate a Fernet Key.
+> **Never lose your Fernet key!**  
+> You must use the exact same key to decrypt files you have encrypted.  
+> The script lets you generate and copy a Fernet key before encrypting.
 
-![Fernet](Img/fernet.PNG)
 
-### We Select a File To Encrypt.
+## 🗝️ Getting Started
 
-![Before](Img/Before.PNG)
+### 1. Clone or Download
 
-### We Select Option 1 and Encrypt the File!
+```sh
+git clone https://github.com/yourusername/File-Encrypter.git
+cd File-Encrypter
+```
 
-![After](Img/After.PNG)
+### 2. Install Requirements
+
+```sh
+pip install cryptography
+```
+
+### 3. Run the Script
+
+```sh
+python Encri.py
+```
+
+## 📝 Usage
+
+1. **Generate a Fernet Key** (if you don't have one)
+2. **Choose to Encrypt or Decrypt**
+3. **Enter the file name and number of rounds**
+4. **Done!**
+
+### Example Session
+
+- **Generate a Fernet Key:**  
+  ![Fernet](Img/fernet.PNG)
+
+- **Before Encryption:**  
+  ![Before](Img/Before.PNG)
+
+- **After Encryption:**  
+  ![After](Img/After.PNG)
+
+
+## 🤖 Author
+
+Made by NobleLip
+
+
+
