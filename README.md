@@ -72,9 +72,6 @@ python Encri.py
   ![After](Img/After.PNG)
 
 
-## 🤖 Author
-
-Made by NobleLip
 
 
 
